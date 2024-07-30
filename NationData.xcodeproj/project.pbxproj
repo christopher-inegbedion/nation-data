@@ -16,6 +16,13 @@
 		F61B64422C54439C007BFE68 /* NationDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B64412C54439C007BFE68 /* NationDataTests.swift */; };
 		F61B644C2C54439C007BFE68 /* NationDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B644B2C54439C007BFE68 /* NationDataUITests.swift */; };
 		F61B644E2C54439C007BFE68 /* NationDataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B644D2C54439C007BFE68 /* NationDataUITestsLaunchTests.swift */; };
+		F682A8AD2C579C0200787948 /* CountrySelectionItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F682A8AC2C579C0200787948 /* CountrySelectionItemCell.swift */; };
+		F682A8AE2C57A63900787948 /* FirstQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2CB092C56C10F0070FE72 /* FirstQuestionViewController.swift */; };
+		F6B2CB022C5582CB0070FE72 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2CB012C5582CB0070FE72 /* Country.swift */; };
+		F6B2CB042C5583040070FE72 /* AllCountryFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2CB032C5583040070FE72 /* AllCountryFetcher.swift */; };
+		F6B2CB072C56C0080070FE72 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = F6B2CB062C56C0080070FE72 /* countries.json */; };
+		F6C6F4AF2C57D8FA00C50746 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C6F4AE2C57D8FA00C50746 /* UIImageView.swift */; };
+		F6C6F4B12C57E44D00C50746 /* SimilarColorFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C6F4B02C57E44D00C50746 /* SimilarColorFinder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		F61B64472C54439C007BFE68 /* NationDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NationDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61B644B2C54439C007BFE68 /* NationDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationDataUITests.swift; sourceTree = "<group>"; };
 		F61B644D2C54439C007BFE68 /* NationDataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationDataUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F682A8AC2C579C0200787948 /* CountrySelectionItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionItemCell.swift; sourceTree = "<group>"; };
+		F6B2CB012C5582CB0070FE72 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		F6B2CB032C5583040070FE72 /* AllCountryFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCountryFetcher.swift; sourceTree = "<group>"; };
+		F6B2CB062C56C0080070FE72 /* countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		F6B2CB092C56C10F0070FE72 /* FirstQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstQuestionViewController.swift; sourceTree = "<group>"; };
+		F6C6F4AE2C57D8FA00C50746 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		F6C6F4B02C57E44D00C50746 /* SimilarColorFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarColorFinder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +113,11 @@
 		F61B64292C544398007BFE68 /* NationData */ = {
 			isa = PBXGroup;
 			children = (
+				F6C6F4AD2C57D8EA00C50746 /* Extensions */,
+				F6B2CB0B2C57965D0070FE72 /* Views */,
+				F6B2CB082C56C0F20070FE72 /* ViewControllers */,
+				F6B2CB052C56BFDC0070FE72 /* Resources */,
+				F6B2CB002C5582B60070FE72 /* Models */,
 				F61B642A2C544398007BFE68 /* AppDelegate.swift */,
 				F61B642C2C544398007BFE68 /* SceneDelegate.swift */,
 				F61B642E2C544398007BFE68 /* ViewController.swift */,
@@ -125,6 +144,48 @@
 				F61B644D2C54439C007BFE68 /* NationDataUITestsLaunchTests.swift */,
 			);
 			path = NationDataUITests;
+			sourceTree = "<group>";
+		};
+		F6B2CB002C5582B60070FE72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F6B2CB012C5582CB0070FE72 /* Country.swift */,
+				F6B2CB032C5583040070FE72 /* AllCountryFetcher.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F6B2CB052C56BFDC0070FE72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6B2CB062C56C0080070FE72 /* countries.json */,
+				F6C6F4B02C57E44D00C50746 /* SimilarColorFinder.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F6B2CB082C56C0F20070FE72 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F6B2CB092C56C10F0070FE72 /* FirstQuestionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F6B2CB0B2C57965D0070FE72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F682A8AC2C579C0200787948 /* CountrySelectionItemCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F6C6F4AD2C57D8EA00C50746 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F6C6F4AE2C57D8FA00C50746 /* UIImageView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +294,7 @@
 			files = (
 				F61B64372C54439C007BFE68 /* LaunchScreen.storyboard in Resources */,
 				F61B64342C54439C007BFE68 /* Assets.xcassets in Resources */,
+				F6B2CB072C56C0080070FE72 /* countries.json in Resources */,
 				F61B64322C544398007BFE68 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C6F4AF2C57D8FA00C50746 /* UIImageView.swift in Sources */,
+				F6B2CB022C5582CB0070FE72 /* Country.swift in Sources */,
+				F6B2CB042C5583040070FE72 /* AllCountryFetcher.swift in Sources */,
 				F61B642F2C544398007BFE68 /* ViewController.swift in Sources */,
+				F6C6F4B12C57E44D00C50746 /* SimilarColorFinder.swift in Sources */,
+				F682A8AD2C579C0200787948 /* CountrySelectionItemCell.swift in Sources */,
 				F61B642B2C544398007BFE68 /* AppDelegate.swift in Sources */,
 				F61B642D2C544398007BFE68 /* SceneDelegate.swift in Sources */,
+				F682A8AE2C57A63900787948 /* FirstQuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
