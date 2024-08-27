@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6173F892C79FF5C009CC377 /* QuestionsMarquee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6173F882C79FF5C009CC377 /* QuestionsMarquee.swift */; };
+		F6173F8B2C7A021A009CC377 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6173F8A2C7A0215009CC377 /* Color.swift */; };
+		F6173F8E2C7A100D009CC377 /* QuestionsMarqueeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6173F8D2C7A100D009CC377 /* QuestionsMarqueeView.swift */; };
+		F6173F952C7C9448009CC377 /* CountryDataExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6173F942C7C9448009CC377 /* CountryDataExtractor.swift */; };
+		F6173F982C7CCB55009CC377 /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = F6173F972C7CCB55009CC377 /* OpenAIKit */; };
+		F6173F9A2C7CF12A009CC377 /* LoadingScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6173F992C7CF12A009CC377 /* LoadingScreenView.xib */; };
+		F6173F9C2C7CF14C009CC377 /* LoadingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6173F9B2C7CF14C009CC377 /* LoadingScreenView.swift */; };
+		F6173F9E2C7E0BAC009CC377 /* WorldBankDataAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6173F9D2C7E0BAC009CC377 /* WorldBankDataAPI.swift */; };
 		F61B642B2C544398007BFE68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B642A2C544398007BFE68 /* AppDelegate.swift */; };
 		F61B642D2C544398007BFE68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B642C2C544398007BFE68 /* SceneDelegate.swift */; };
 		F61B642F2C544398007BFE68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B642E2C544398007BFE68 /* ViewController.swift */; };
@@ -16,13 +24,35 @@
 		F61B64422C54439C007BFE68 /* NationDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B64412C54439C007BFE68 /* NationDataTests.swift */; };
 		F61B644C2C54439C007BFE68 /* NationDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B644B2C54439C007BFE68 /* NationDataUITests.swift */; };
 		F61B644E2C54439C007BFE68 /* NationDataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B644D2C54439C007BFE68 /* NationDataUITestsLaunchTests.swift */; };
-		F682A8AD2C579C0200787948 /* CountrySelectionItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F682A8AC2C579C0200787948 /* CountrySelectionItemCell.swift */; };
-		F682A8AE2C57A63900787948 /* FirstQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2CB092C56C10F0070FE72 /* FirstQuestionViewController.swift */; };
+		F6420A842C7899820052EA2D /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6420A832C7899820052EA2D /* WelcomeScreenViewController.swift */; };
+		F6420A872C789A100052EA2D /* FirstWelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6420A862C789A100052EA2D /* FirstWelcomeScreenView.swift */; };
+		F6420A892C791ACA0052EA2D /* SecondWelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6420A882C791ABF0052EA2D /* SecondWelcomeScreenView.swift */; };
+		F6420A8B2C793CAF0052EA2D /* SecondWelcomeScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6420A8A2C793CAF0052EA2D /* SecondWelcomeScreenView.xib */; };
+		F652E3302C78926E0051D4A9 /* FirstWelcomeScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F652E32F2C78926E0051D4A9 /* FirstWelcomeScreenView.xib */; };
+		F6ACA8C42C70E6C0004DDA86 /* Labrada-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6ACA8B22C70E6C0004DDA86 /* Labrada-Thin.ttf */; };
+		F6ACA8C52C70E6C0004DDA86 /* Labrada-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6ACA8B32C70E6C0004DDA86 /* Labrada-BoldItalic.ttf */; };
+		F6ACA8C62C70E6C0004DDA86 /* Labrada-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6ACA8B42C70E6C0004DDA86 /* Labrada-Black.ttf */; };
+		F6ACA8C72C70E6C0004DDA86 /* Labrada-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6ACA8B52C70E6C0004DDA86 /* Labrada-ThinItalic.ttf */; };
+		F6ACA8C82C70E6C0004DDA86 /* Labrada-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6ACA8B62C70E6C0004DDA86 /* Labrada-ExtraLight.ttf */; };
+		F6ACA8C92C70E6C0004DDA86 /* Labrada-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6ACA8B72C70E6C0004DDA86 /* Labrada-MediumItalic.ttf */; };
+		F6ACA8CA2C70E6C0004DDA86 /* Labrada-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6ACA8B82C70E6C0004DDA86 /* Labrada-SemiBoldItalic.ttf */; };
+		F6ACA8CB2C70E6C0004DDA86 /* Labrada-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6ACA8B92C70E6C0004DDA86 /* Labrada-Italic.ttf */; };
+		F6ACA8CC2C70E6C0004DDA86 /* Labrada-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6ACA8BA2C70E6C0004DDA86 /* Labrada-Medium.ttf */; };
+		F6ACA8CD2C70E6C0004DDA86 /* Labrada-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6ACA8BB2C70E6C0004DDA86 /* Labrada-SemiBold.ttf */; };
+		F6ACA8CE2C70E6C0004DDA86 /* Labrada-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6ACA8BC2C70E6C0004DDA86 /* Labrada-Bold.ttf */; };
+		F6ACA8CF2C70E6C0004DDA86 /* Labrada-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6ACA8BD2C70E6C0004DDA86 /* Labrada-Light.ttf */; };
+		F6ACA8D02C70E6C0004DDA86 /* Labrada-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6ACA8BE2C70E6C0004DDA86 /* Labrada-BlackItalic.ttf */; };
+		F6ACA8D12C70E6C0004DDA86 /* Labrada-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6ACA8BF2C70E6C0004DDA86 /* Labrada-ExtraLightItalic.ttf */; };
+		F6ACA8D22C70E6C0004DDA86 /* Labrada-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6ACA8C02C70E6C0004DDA86 /* Labrada-Regular.ttf */; };
+		F6ACA8D32C70E6C0004DDA86 /* Labrada-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6ACA8C12C70E6C0004DDA86 /* Labrada-ExtraBold.ttf */; };
+		F6ACA8D42C70E6C0004DDA86 /* Labrada-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6ACA8C22C70E6C0004DDA86 /* Labrada-LightItalic.ttf */; };
+		F6ACA8D52C70E6C0004DDA86 /* Labrada-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6ACA8C32C70E6C0004DDA86 /* Labrada-ExtraBoldItalic.ttf */; };
 		F6B2CB022C5582CB0070FE72 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2CB012C5582CB0070FE72 /* Country.swift */; };
 		F6B2CB042C5583040070FE72 /* AllCountryFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2CB032C5583040070FE72 /* AllCountryFetcher.swift */; };
 		F6B2CB072C56C0080070FE72 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = F6B2CB062C56C0080070FE72 /* countries.json */; };
 		F6C6F4AF2C57D8FA00C50746 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C6F4AE2C57D8FA00C50746 /* UIImageView.swift */; };
 		F6C6F4B12C57E44D00C50746 /* SimilarColorFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C6F4B02C57E44D00C50746 /* SimilarColorFinder.swift */; };
+		F6C6F4BC2C5D274400C50746 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C6F4BB2C5D274400C50746 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +73,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F6173F882C79FF5C009CC377 /* QuestionsMarquee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsMarquee.swift; sourceTree = "<group>"; };
+		F6173F8A2C7A0215009CC377 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F6173F8D2C7A100D009CC377 /* QuestionsMarqueeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsMarqueeView.swift; sourceTree = "<group>"; };
+		F6173F942C7C9448009CC377 /* CountryDataExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDataExtractor.swift; sourceTree = "<group>"; };
+		F6173F992C7CF12A009CC377 /* LoadingScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingScreenView.xib; sourceTree = "<group>"; };
+		F6173F9B2C7CF14C009CC377 /* LoadingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreenView.swift; sourceTree = "<group>"; };
+		F6173F9D2C7E0BAC009CC377 /* WorldBankDataAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldBankDataAPI.swift; sourceTree = "<group>"; };
 		F61B64272C544398007BFE68 /* NationData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NationData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61B642A2C544398007BFE68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F61B642C2C544398007BFE68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,13 +93,35 @@
 		F61B64472C54439C007BFE68 /* NationDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NationDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61B644B2C54439C007BFE68 /* NationDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationDataUITests.swift; sourceTree = "<group>"; };
 		F61B644D2C54439C007BFE68 /* NationDataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationDataUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F682A8AC2C579C0200787948 /* CountrySelectionItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionItemCell.swift; sourceTree = "<group>"; };
+		F6420A832C7899820052EA2D /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
+		F6420A862C789A100052EA2D /* FirstWelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstWelcomeScreenView.swift; sourceTree = "<group>"; };
+		F6420A882C791ABF0052EA2D /* SecondWelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondWelcomeScreenView.swift; sourceTree = "<group>"; };
+		F6420A8A2C793CAF0052EA2D /* SecondWelcomeScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondWelcomeScreenView.xib; sourceTree = "<group>"; };
+		F652E32F2C78926E0051D4A9 /* FirstWelcomeScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstWelcomeScreenView.xib; sourceTree = "<group>"; };
+		F6ACA8B22C70E6C0004DDA86 /* Labrada-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Labrada-Thin.ttf"; sourceTree = "<group>"; };
+		F6ACA8B32C70E6C0004DDA86 /* Labrada-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Labrada-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F6ACA8B42C70E6C0004DDA86 /* Labrada-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Labrada-Black.ttf"; sourceTree = "<group>"; };
+		F6ACA8B52C70E6C0004DDA86 /* Labrada-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Labrada-ThinItalic.ttf"; sourceTree = "<group>"; };
+		F6ACA8B62C70E6C0004DDA86 /* Labrada-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Labrada-ExtraLight.ttf"; sourceTree = "<group>"; };
+		F6ACA8B72C70E6C0004DDA86 /* Labrada-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Labrada-MediumItalic.ttf"; sourceTree = "<group>"; };
+		F6ACA8B82C70E6C0004DDA86 /* Labrada-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Labrada-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		F6ACA8B92C70E6C0004DDA86 /* Labrada-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Labrada-Italic.ttf"; sourceTree = "<group>"; };
+		F6ACA8BA2C70E6C0004DDA86 /* Labrada-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Labrada-Medium.ttf"; sourceTree = "<group>"; };
+		F6ACA8BB2C70E6C0004DDA86 /* Labrada-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Labrada-SemiBold.ttf"; sourceTree = "<group>"; };
+		F6ACA8BC2C70E6C0004DDA86 /* Labrada-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Labrada-Bold.ttf"; sourceTree = "<group>"; };
+		F6ACA8BD2C70E6C0004DDA86 /* Labrada-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Labrada-Light.ttf"; sourceTree = "<group>"; };
+		F6ACA8BE2C70E6C0004DDA86 /* Labrada-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Labrada-BlackItalic.ttf"; sourceTree = "<group>"; };
+		F6ACA8BF2C70E6C0004DDA86 /* Labrada-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Labrada-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		F6ACA8C02C70E6C0004DDA86 /* Labrada-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Labrada-Regular.ttf"; sourceTree = "<group>"; };
+		F6ACA8C12C70E6C0004DDA86 /* Labrada-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Labrada-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F6ACA8C22C70E6C0004DDA86 /* Labrada-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Labrada-LightItalic.ttf"; sourceTree = "<group>"; };
+		F6ACA8C32C70E6C0004DDA86 /* Labrada-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Labrada-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		F6B2CB012C5582CB0070FE72 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		F6B2CB032C5583040070FE72 /* AllCountryFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCountryFetcher.swift; sourceTree = "<group>"; };
 		F6B2CB062C56C0080070FE72 /* countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
-		F6B2CB092C56C10F0070FE72 /* FirstQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstQuestionViewController.swift; sourceTree = "<group>"; };
 		F6C6F4AE2C57D8FA00C50746 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		F6C6F4B02C57E44D00C50746 /* SimilarColorFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarColorFinder.swift; sourceTree = "<group>"; };
+		F6C6F4BB2C5D274400C50746 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6173F982C7CCB55009CC377 /* OpenAIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +150,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F6173F8C2C7A0FE4009CC377 /* QuestionsMarquee */ = {
+			isa = PBXGroup;
+			children = (
+				F6173F882C79FF5C009CC377 /* QuestionsMarquee.swift */,
+				F6173F8D2C7A100D009CC377 /* QuestionsMarqueeView.swift */,
+			);
+			path = QuestionsMarquee;
+			sourceTree = "<group>";
+		};
 		F61B641E2C544398007BFE68 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +182,7 @@
 		F61B64292C544398007BFE68 /* NationData */ = {
 			isa = PBXGroup;
 			children = (
+				F6ACA8AD2C70E56A004DDA86 /* fonts */,
 				F6C6F4AD2C57D8EA00C50746 /* Extensions */,
 				F6B2CB0B2C57965D0070FE72 /* Views */,
 				F6B2CB082C56C0F20070FE72 /* ViewControllers */,
@@ -146,11 +216,39 @@
 			path = NationDataUITests;
 			sourceTree = "<group>";
 		};
+		F6ACA8AD2C70E56A004DDA86 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F6ACA8B42C70E6C0004DDA86 /* Labrada-Black.ttf */,
+				F6ACA8BE2C70E6C0004DDA86 /* Labrada-BlackItalic.ttf */,
+				F6ACA8BC2C70E6C0004DDA86 /* Labrada-Bold.ttf */,
+				F6ACA8B32C70E6C0004DDA86 /* Labrada-BoldItalic.ttf */,
+				F6ACA8C12C70E6C0004DDA86 /* Labrada-ExtraBold.ttf */,
+				F6ACA8C32C70E6C0004DDA86 /* Labrada-ExtraBoldItalic.ttf */,
+				F6ACA8B62C70E6C0004DDA86 /* Labrada-ExtraLight.ttf */,
+				F6ACA8BF2C70E6C0004DDA86 /* Labrada-ExtraLightItalic.ttf */,
+				F6ACA8B92C70E6C0004DDA86 /* Labrada-Italic.ttf */,
+				F6ACA8BD2C70E6C0004DDA86 /* Labrada-Light.ttf */,
+				F6ACA8C22C70E6C0004DDA86 /* Labrada-LightItalic.ttf */,
+				F6ACA8BA2C70E6C0004DDA86 /* Labrada-Medium.ttf */,
+				F6ACA8B72C70E6C0004DDA86 /* Labrada-MediumItalic.ttf */,
+				F6ACA8C02C70E6C0004DDA86 /* Labrada-Regular.ttf */,
+				F6ACA8BB2C70E6C0004DDA86 /* Labrada-SemiBold.ttf */,
+				F6ACA8B82C70E6C0004DDA86 /* Labrada-SemiBoldItalic.ttf */,
+				F6ACA8B22C70E6C0004DDA86 /* Labrada-Thin.ttf */,
+				F6ACA8B52C70E6C0004DDA86 /* Labrada-ThinItalic.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		F6B2CB002C5582B60070FE72 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F6173F942C7C9448009CC377 /* CountryDataExtractor.swift */,
+				F6173F9D2C7E0BAC009CC377 /* WorldBankDataAPI.swift */,
 				F6B2CB012C5582CB0070FE72 /* Country.swift */,
 				F6B2CB032C5583040070FE72 /* AllCountryFetcher.swift */,
+				F6C6F4BB2C5D274400C50746 /* Constants.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -167,7 +265,7 @@
 		F6B2CB082C56C0F20070FE72 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				F6B2CB092C56C10F0070FE72 /* FirstQuestionViewController.swift */,
+				F6420A832C7899820052EA2D /* WelcomeScreenViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -175,7 +273,13 @@
 		F6B2CB0B2C57965D0070FE72 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F682A8AC2C579C0200787948 /* CountrySelectionItemCell.swift */,
+				F6173F8C2C7A0FE4009CC377 /* QuestionsMarquee */,
+				F6420A882C791ABF0052EA2D /* SecondWelcomeScreenView.swift */,
+				F652E32F2C78926E0051D4A9 /* FirstWelcomeScreenView.xib */,
+				F6420A8A2C793CAF0052EA2D /* SecondWelcomeScreenView.xib */,
+				F6420A862C789A100052EA2D /* FirstWelcomeScreenView.swift */,
+				F6173F992C7CF12A009CC377 /* LoadingScreenView.xib */,
+				F6173F9B2C7CF14C009CC377 /* LoadingScreenView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +287,7 @@
 		F6C6F4AD2C57D8EA00C50746 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F6173F8A2C7A0215009CC377 /* Color.swift */,
 				F6C6F4AE2C57D8FA00C50746 /* UIImageView.swift */,
 			);
 			path = Extensions;
@@ -204,6 +309,9 @@
 			dependencies = (
 			);
 			name = NationData;
+			packageProductDependencies = (
+				F6173F972C7CCB55009CC377 /* OpenAIKit */,
+			);
 			productName = NationData;
 			productReference = F61B64272C544398007BFE68 /* NationData.app */;
 			productType = "com.apple.product-type.application";
@@ -276,6 +384,9 @@
 				Base,
 			);
 			mainGroup = F61B641E2C544398007BFE68;
+			packageReferences = (
+				F6173F962C7CCB55009CC377 /* XCRemoteSwiftPackageReference "OpenAIKit" */,
+			);
 			productRefGroup = F61B64282C544398007BFE68 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -292,10 +403,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6ACA8CC2C70E6C0004DDA86 /* Labrada-Medium.ttf in Resources */,
+				F6ACA8CD2C70E6C0004DDA86 /* Labrada-SemiBold.ttf in Resources */,
+				F6ACA8D12C70E6C0004DDA86 /* Labrada-ExtraLightItalic.ttf in Resources */,
+				F6ACA8D42C70E6C0004DDA86 /* Labrada-LightItalic.ttf in Resources */,
+				F6ACA8D52C70E6C0004DDA86 /* Labrada-ExtraBoldItalic.ttf in Resources */,
+				F6ACA8D02C70E6C0004DDA86 /* Labrada-BlackItalic.ttf in Resources */,
+				F6173F9A2C7CF12A009CC377 /* LoadingScreenView.xib in Resources */,
+				F6ACA8D22C70E6C0004DDA86 /* Labrada-Regular.ttf in Resources */,
 				F61B64372C54439C007BFE68 /* LaunchScreen.storyboard in Resources */,
 				F61B64342C54439C007BFE68 /* Assets.xcassets in Resources */,
+				F6ACA8C82C70E6C0004DDA86 /* Labrada-ExtraLight.ttf in Resources */,
+				F6ACA8C62C70E6C0004DDA86 /* Labrada-Black.ttf in Resources */,
+				F6ACA8CB2C70E6C0004DDA86 /* Labrada-Italic.ttf in Resources */,
+				F6ACA8C42C70E6C0004DDA86 /* Labrada-Thin.ttf in Resources */,
 				F6B2CB072C56C0080070FE72 /* countries.json in Resources */,
+				F6ACA8CF2C70E6C0004DDA86 /* Labrada-Light.ttf in Resources */,
 				F61B64322C544398007BFE68 /* Main.storyboard in Resources */,
+				F6ACA8D32C70E6C0004DDA86 /* Labrada-ExtraBold.ttf in Resources */,
+				F6ACA8CE2C70E6C0004DDA86 /* Labrada-Bold.ttf in Resources */,
+				F652E3302C78926E0051D4A9 /* FirstWelcomeScreenView.xib in Resources */,
+				F6ACA8CA2C70E6C0004DDA86 /* Labrada-SemiBoldItalic.ttf in Resources */,
+				F6ACA8C52C70E6C0004DDA86 /* Labrada-BoldItalic.ttf in Resources */,
+				F6ACA8C72C70E6C0004DDA86 /* Labrada-ThinItalic.ttf in Resources */,
+				F6ACA8C92C70E6C0004DDA86 /* Labrada-MediumItalic.ttf in Resources */,
+				F6420A8B2C793CAF0052EA2D /* SecondWelcomeScreenView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,11 +456,19 @@
 				F6B2CB022C5582CB0070FE72 /* Country.swift in Sources */,
 				F6B2CB042C5583040070FE72 /* AllCountryFetcher.swift in Sources */,
 				F61B642F2C544398007BFE68 /* ViewController.swift in Sources */,
+				F6173F8B2C7A021A009CC377 /* Color.swift in Sources */,
+				F6173F952C7C9448009CC377 /* CountryDataExtractor.swift in Sources */,
+				F6173F892C79FF5C009CC377 /* QuestionsMarquee.swift in Sources */,
+				F6420A842C7899820052EA2D /* WelcomeScreenViewController.swift in Sources */,
+				F6420A872C789A100052EA2D /* FirstWelcomeScreenView.swift in Sources */,
+				F6173F9E2C7E0BAC009CC377 /* WorldBankDataAPI.swift in Sources */,
 				F6C6F4B12C57E44D00C50746 /* SimilarColorFinder.swift in Sources */,
-				F682A8AD2C579C0200787948 /* CountrySelectionItemCell.swift in Sources */,
+				F6C6F4BC2C5D274400C50746 /* Constants.swift in Sources */,
+				F6173F9C2C7CF14C009CC377 /* LoadingScreenView.swift in Sources */,
 				F61B642B2C544398007BFE68 /* AppDelegate.swift in Sources */,
+				F6420A892C791ACA0052EA2D /* SecondWelcomeScreenView.swift in Sources */,
 				F61B642D2C544398007BFE68 /* SceneDelegate.swift in Sources */,
-				F682A8AE2C57A63900787948 /* FirstQuestionViewController.swift in Sources */,
+				F6173F8E2C7A100D009CC377 /* QuestionsMarqueeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +646,8 @@
 		F61B64522C54439C007BFE68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,8 +665,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ineg.NationData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xrsimulator xros watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -551,6 +696,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ineg.NationData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -675,6 +821,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F6173F962C7CCB55009CC377 /* XCRemoteSwiftPackageReference "OpenAIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OpenDive/OpenAIKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F6173F972C7CCB55009CC377 /* OpenAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6173F962C7CCB55009CC377 /* XCRemoteSwiftPackageReference "OpenAIKit" */;
+			productName = OpenAIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F61B641F2C544398007BFE68 /* Project object */;
 }
