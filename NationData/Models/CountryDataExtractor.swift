@@ -18,7 +18,7 @@ struct ExtractedData {
 }
 
 func extractData(from prompt: String, completion: @escaping (ExtractedData?) -> Void) async {
-    let openAI = OpenAI(Configuration(organizationId: "", apiKey: "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"))
+    let openAI = OpenAI(Configuration(organizationId: "", apiKey: ProcessInfo.processInfo.environment["openai-key"] ?? ""))
     
     do {
         let functions: [Function] = [
